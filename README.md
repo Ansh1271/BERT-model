@@ -26,28 +26,28 @@ The project is built using Python and utilizes libraries such as Hugging Face’
 This section explains how to use the Sentiment Analysis model built with BERT.
 
 ### Prerequisites- <br>
-Before you begin, ensure you have installed all the necessary dependencies as mentioned in the [Installation](#installation) section.
+Before you begin, ensure you have installed all the necessary dependencies:
 
 ### Basic Usage- <br>
 To perform sentiment analysis using the model, you can use the following code snippet:
 
 from sentiment_analysis import SentimentAnalyzer
-# Initialize the model
+#### Initialize the model
 analyzer = SentimentAnalyzer()
 
-# Analyze sentiment of a sample text
+#### Analyze sentiment of a sample text
 result = analyzer.predict("I love using this product!")
 print(result)  # Output: Positive
 
 
-### Tips for the Usage Section
+#### Tips for the Usage Section<br>
 
-- **Clarity**: Ensure that the code examples are clear and well-commented to make them easy to understand for users of varying skill levels.
-- **Examples**: Provide different examples to cater to different use cases (e.g., single text input vs. batch processing).
-- **Testing**: If possible, include some simple test cases to demonstrate expected outputs.
-- **Formatting**: Use Markdown syntax correctly to enhance readability, such as code blocks for code snippets.
+- **Clarity**: Ensure that the code examples are clear and well-commented to make them easy to understand for users of varying skill levels.<br>
+- **Examples**: Provide different examples to cater to different use cases (e.g., single text input vs. batch processing).<br>
+- **Testing**: If possible, include some simple test cases to demonstrate expected outputs.<br>
+- **Formatting**: Use Markdown syntax correctly to enhance readability, such as code blocks for code snippets.<br>
 
-By structuring the **Usage** section in this way, you provide users with a comprehensive guide on how to utilize your sentiment analysis model effectively. Let me know if you need further assistance!
+By structuring the **Usage** section in this way, you provide users with a comprehensive guide on how to utilize your sentiment analysis model effectively. Let me know if you need further assistance!<br>
 
 # Conclusion: <br>
 This project serves as an educational resource and practical tool for anyone interested in exploring advanced NLP techniques. By using BERT for sentiment analysis, it highlights the potential of deep learning models in understanding and interpreting human emotions expressed through text, paving the way for more sophisticated applications in sentiment analysis and beyond.
