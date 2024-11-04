@@ -21,7 +21,42 @@ Real-Time Sentiment Analysis: Users can input text in real time and receive imme
 Comprehensive Evaluation: The model's performance is assessed using standard metrics such as accuracy, precision, recall, and F1 score, providing insights into its effectiveness and reliability.<br>
 
 ## Technical Implementation: <br>
-The project is built using Python and utilizes libraries such as Hugging Face’s Transformers for implementing BERT, along with PyTorch or TensorFlow for model training and evaluation. The dataset used for training and testing can include various sources such as movie reviews, social media posts, or product feedback, which can be preprocessed to suit the model's requirements.
+The project is built using Python and utilizes libraries such as Hugging Face’s Transformers for implementing BERT, along with PyTorch or TensorFlow for model training and evaluation. The dataset used for training and testing can include various sources such as movie reviews, social media posts, or product feedback, which can be preprocessed to suit the model's requirements.<br>
+
+### Training Processes -<br>
+This section provides a detailed walkthrough of the steps involved in training and fine-tuning BERT for sentiment analysis:
+
+1) Dataset Preparation<br>
+
+**Data Collection:** Gather labeled datasets that contain text samples and corresponding sentiment labels (e.g., positive, negative, neutral).<br>
+**Data Preprocessing:** Prepare the text data to improve model performance:<br>
+**Tokenization:** Use BERT’s tokenizer to split text into subword tokens.<br>
+**Cleaning:** Remove any unnecessary characters, URLs, and emojis if needed.<br>
+**Label Encoding:** Convert sentiment labels to numerical format for model compatibility.<br>
+
+2) Model Initialization<br>
+
+**Loading Pre-trained BERT:** Use Hugging Face’s Transformers library to load a pre-trained BERT model.<br>
+**Adding a Classification Layer:** Add a dense layer on top of BERT to classify sentiment. This layer will learn during fine-tuning.<br>
+
+3) Fine-Tuning<br>
+
+**Freezing Layers (optional):** Optionally, freeze the lower BERT layers to focus training on higher layers and the classifier.<br>
+**Hyperparameter Setup:** Choose values for batch size, learning rate, and number of epochs.<br>
+**Training Steps:**<br>
+     - Forward Pass: Pass input data through BERT to get contextualized embeddings.<br>
+     - Loss Calculation: Calculate cross-entropy loss between predicted and actual labels.<br>
+     - Backward Pass: Adjust weights using backpropagation to minimize loss.<br>
+**Optimizer and Scheduler:** Use AdamW for optimization, and set up a learning rate scheduler.<br>
+
+4) Testing and Model Evaluation<br>
+
+**Test Set Evaluation:** Use a separate test set to evaluate the model’s generalization capability.
+**Error Analysis:** Examine misclassified samples to identify areas for improvement.
+
+5) Saving the Model
+
+Save the trained model and tokenizer for easy deployment using **Hugging Face’s save_pretrained()** method.
 
 ## Usage: <br>
 
