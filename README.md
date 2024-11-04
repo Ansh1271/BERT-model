@@ -34,10 +34,10 @@ Before you begin, ensure you have installed all the necessary dependencies:
 To perform sentiment analysis using the model, you can use the following code snippet:
 
 from sentiment_analysis import SentimentAnalyzer
-#### Initialize the model
+#Initialize the model
 analyzer = SentimentAnalyzer()
 
-#### Analyze sentiment of a sample text
+#Analyze sentiment of a sample text
 result = analyzer.predict("I love using this product!")<br>
 print(result)  # Output: Positive
 
