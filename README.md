@@ -5,6 +5,8 @@
 - [Overview](#overview)
 - [Key-Features](#key-features)
 - [Technical Implementation](#technical-implementation)
+- [Usage](#usage)
+- [Conclusion](#conclusion)
 
 ## Description: <br>
 The "Sentiment Analysis using BERT Model" project leverages the power of BERT (Bidirectional Encoder Representations from Transformers), a state-of-the-art natural language processing (NLP) technique developed by Google, to perform sentiment analysis on text data. This project aims to accurately classify the sentiment of textual content—whether it conveys a positive, negative, or neutral sentiment—by utilizing the contextual understanding capabilities of BERT.
@@ -49,7 +51,7 @@ print(result)  # Output: Positive
 
 By structuring the **Usage** section in this way, you provide users with a comprehensive guide on how to utilize your sentiment analysis model effectively. Let me know if you need further assistance!<br>
 
-# Conclusion: <br>
+## Conclusion: <br>
 This project serves as an educational resource and practical tool for anyone interested in exploring advanced NLP techniques. By using BERT for sentiment analysis, it highlights the potential of deep learning models in understanding and interpreting human emotions expressed through text, paving the way for more sophisticated applications in sentiment analysis and beyond.
 
 
