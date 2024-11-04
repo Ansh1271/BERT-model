@@ -31,13 +31,13 @@ This section explains how to use the Sentiment Analysis model built with BERT.
 Before you begin, ensure you have installed all the necessary dependencies:
 
 ### Basic Usage- <br>
-To perform sentiment analysis using the model, you can use the following code snippet:
+To perform sentiment analysis using the model, you can use the following code snippet:<br>
 
 from sentiment_analysis import SentimentAnalyzer<br>
 #Initialize the model<br>
 analyzer = SentimentAnalyzer()
 
-#Analyze sentiment of a sample text
+#Analyze sentiment of a sample text<br>
 result = analyzer.predict("I love using this product!")<br>
 print(result)  # Output: Positive
 
