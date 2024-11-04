@@ -38,7 +38,7 @@ from sentiment_analysis import SentimentAnalyzer
 analyzer = SentimentAnalyzer()
 
 #### Analyze sentiment of a sample text
-result = analyzer.predict("I love using this product!")
+result = analyzer.predict("I love using this product!")<br>
 print(result)  # Output: Positive
 
 
