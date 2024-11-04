@@ -27,10 +27,10 @@ The project is built using Python and utilizes libraries such as Hugging Face’
 
 This section explains how to use the Sentiment Analysis model built with BERT.
 
-- **Prerequisites**- <br>
+**Prerequisites**- <br>
 Before you begin, ensure you have installed all the necessary dependencies:
 
-- **Basic Usage** - <br>
+**Basic Usage** - <br>
 To perform sentiment analysis using the model, you can use the following code snippet:<br>
 
 from sentiment_analysis import SentimentAnalyzer<br>
