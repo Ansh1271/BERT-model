@@ -51,12 +51,12 @@ This section provides a detailed walkthrough of the steps involved in training a
 
 4) Testing and Model Evaluation<br>
 
-**Test Set Evaluation:** Use a separate test set to evaluate the model’s generalization capability.
-**Error Analysis:** Examine misclassified samples to identify areas for improvement.
+**Test Set Evaluation:** Use a separate test set to evaluate the model’s generalization capability.<br>
+**Error Analysis:** Examine misclassified samples to identify areas for improvement.<br>
 
 5) Saving the Model
 
-Save the trained model and tokenizer for easy deployment using **Hugging Face’s save_pretrained()** method.
+Save the trained model and tokenizer for easy deployment using **Hugging Face’s save_pretrained()** method.<br>
 
 ## Usage: <br>
 
