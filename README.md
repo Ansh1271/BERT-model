@@ -33,7 +33,7 @@ Before you begin, ensure you have installed all the necessary dependencies:
 ### Basic Usage- <br>
 To perform sentiment analysis using the model, you can use the following code snippet:
 
-from sentiment_analysis import SentimentAnalyzer
+from sentiment_analysis import SentimentAnalyzer<br>
 #Initialize the model
 analyzer = SentimentAnalyzer()
 
